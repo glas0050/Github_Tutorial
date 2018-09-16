@@ -21,7 +21,7 @@ void setup()
 
 void loop() 
 {
-  int myValue = 0;// this chsng shows up nicely
+  int myValue = 0;// this change shows up nicely
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
