@@ -21,8 +21,12 @@ void setup()
 
 void loop() 
 {
+<<<<<<< HEAD
   int myValue = 0;// this change shows up nicely
   // still trying to get this to work
+=======
+  byte myValue = 0;
+>>>>>>> parent of 974b5d5... changed byte to int
   myValue = analogRead(A0);
   
   Serial.print("The value is: ");
@@ -30,3 +34,4 @@ void loop()
 
   delay(250);
 }
+
